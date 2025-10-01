@@ -1,0 +1,31 @@
+{
+  "name": "crud-typescript-mvc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/server.js", 
+    "dev": "ts-node src/server.ts"  
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JJeffersonAraujo/CRUD-TypeScript-MVC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JJeffersonAraujo/CRUD-TypeScript-MVC/issues"
+  },
+  "homepage": "https://github.com/JJeffersonAraujo/CRUD-TypeScript-MVC#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3"
+  }
+}
