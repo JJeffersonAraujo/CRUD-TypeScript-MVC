@@ -4,8 +4,9 @@
   "description": "API REST simples para gerenciamento de tarefas no padrão MVC com Express e TypeScript",
   "main": "dist/server.js",
   "scripts": {
-    "test": "node --test test/*.test.js",
     "build": "tsc",
+    "pretest": "npm run build",
+    "test": "node --test test/*.test.js",
     "start": "node dist/server.js",
     "dev": "ts-node src/server.ts"
   },
@@ -30,6 +31,8 @@
     "express": "^5.1.0"
   },
   "devDependencies": {
-    "@types/express": "^5.0.3"
+    "@types/express": "^5.0.3",
+    "@types/node": "^22.10.0",
+    "typescript": "^5.3.3"
   }
 }
