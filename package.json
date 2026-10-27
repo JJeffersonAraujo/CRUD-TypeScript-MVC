@@ -1,21 +1,25 @@
 {
   "name": "crud-typescript-mvc",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API REST simples para gerenciamento de tarefas no padrão MVC com Express e TypeScript",
+  "main": "dist/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node --test test/*.test.js",
     "build": "tsc",
-    "start": "node dist/server.js", 
-    "dev": "ts-node src/server.ts"  
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JJeffersonAraujo/CRUD-TypeScript-MVC.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "typescript",
+    "express",
+    "mvc",
+    "crud"
+  ],
+  "author": "Jefferson Araujo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JJeffersonAraujo/CRUD-TypeScript-MVC/issues"
